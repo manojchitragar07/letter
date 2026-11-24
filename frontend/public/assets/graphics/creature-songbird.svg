@@ -1,0 +1,28 @@
+<svg viewBox="0 0 150 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Perched Songbird on Twig -->
+  <!-- Twig Branch -->
+  <path d="M15 100 Q 60 92 135 95" stroke="#5E4331" stroke-width="3" stroke-linecap="round"/>
+  <path d="M65 94 Q 75 108 85 112" stroke="#5E4331" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- Bird Body -->
+  <path
+    d="M45 52 C 45 35 62 25 80 32 C 95 38 115 55 125 72 C 112 85 85 92 65 88 C 50 85 45 70 45 52 Z"
+    fill="#6E7E91"
+  />
+  <!-- Red/Warm Breast (Robin) -->
+  <path
+    d="M48 54 C 50 42 62 38 72 44 C 78 52 75 75 58 78 C 50 75 48 65 48 54 Z"
+    fill="#C85A48"
+  />
+  <!-- Wing -->
+  <path
+    d="M75 50 C 90 52 110 65 118 80 C 105 85 88 80 75 68 Z"
+    fill="#485666"
+  />
+  <!-- Beak -->
+  <path d="M45 46 L34 50 L45 54 Z" fill="#3D2E24"/>
+  <!-- Eye -->
+  <circle cx="56" cy="44" r="2.5" fill="#1C140E"/>
+  <circle cx="55.5" cy="43.5" r="0.8" fill="#FFFFFF"/>
+  <!-- Claws on Twig -->
+  <path d="M68 88 L68 95 M74 88 L74 95" stroke="#3D2E24" stroke-width="1.5"/>
+</svg>

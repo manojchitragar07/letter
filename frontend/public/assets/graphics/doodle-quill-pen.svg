@@ -1,0 +1,26 @@
+<svg viewBox="0 0 140 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Antique Feather Quill with Gold Nib -->
+  <g transform="rotate(-35 70 90)">
+    <!-- Feather Vane Shaft -->
+    <path d="M70 20 Q 72 80 70 140" stroke="#7A654C" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Left Feather Vane Barbs -->
+    <path
+      d="M70 20 C 50 40 40 70 52 100 C 58 115 65 125 70 135 C 62 105 52 65 70 20 Z"
+      fill="#D9CBB6"
+      stroke="#B39F82"
+      stroke-width="1"
+    />
+    <!-- Right Feather Vane Barbs -->
+    <path
+      d="M70 20 C 90 40 98 70 86 100 C 80 115 74 125 70 135 C 78 105 88 65 70 20 Z"
+      fill="#ECE3D4"
+      stroke="#B39F82"
+      stroke-width="1"
+    />
+    <!-- Gold Pen Nib -->
+    <path d="M68 140 L65 160 L70 170 L75 160 L72 140 Z" fill="#D4AF37" stroke="#9A7518" stroke-width="1"/>
+    <!-- Nib Slit & Breather Hole -->
+    <line x1="70" y1="148" x2="70" y2="170" stroke="#4A3408" stroke-width="1"/>
+    <circle cx="70" cy="148" r="1.5" fill="#4A3408"/>
+  </g>
+</svg>

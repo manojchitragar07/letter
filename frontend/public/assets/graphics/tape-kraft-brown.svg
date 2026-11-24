@@ -1,0 +1,13 @@
+<svg viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Torn Kraft Paper Tape Strip -->
+  <path
+    d="M4 6 L196 4 L194 44 L3 46 Z"
+    fill="#D9B78F"
+    opacity="0.9"
+  />
+  <!-- Torn Left and Right Edges -->
+  <path d="M4 6 L7 18 L3 32 L5 46 Z" fill="#C29F75" opacity="0.6"/>
+  <path d="M196 4 L193 18 L197 32 L194 44 Z" fill="#C29F75" opacity="0.6"/>
+  <!-- Paper Fibers and Center Guideline -->
+  <line x1="20" y1="25" x2="180" y2="25" stroke="#9E764E" stroke-width="0.8" stroke-dasharray="6 8" opacity="0.4"/>
+</svg>

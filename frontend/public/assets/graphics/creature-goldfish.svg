@@ -1,0 +1,30 @@
+<svg viewBox="0 0 160 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Elegant Veiltail Goldfish -->
+  <!-- Translucent Caudal Tail Fins -->
+  <path
+    d="M95 70 C 120 50 150 40 155 60 C 145 80 120 90 95 75 Z"
+    fill="#F47C42"
+    opacity="0.7"
+  />
+  <path
+    d="M95 75 C 130 85 155 110 145 125 C 125 125 105 100 95 80 Z"
+    fill="#E55B24"
+    opacity="0.8"
+  />
+  <!-- Dorsal Fin -->
+  <path d="M65 48 C 75 30 88 35 85 52 Z" fill="#F47C42" opacity="0.85"/>
+  <!-- Pectoral Fin -->
+  <path d="M55 78 C 45 92 35 98 42 102 C 52 98 58 86 58 78 Z" fill="#F9A472" opacity="0.8"/>
+  <!-- Main Body -->
+  <path
+    d="M32 70 C 35 50 65 46 95 70 C 85 88 55 92 32 70 Z"
+    fill="#E8612A"
+    stroke="#BA4415"
+    stroke-width="1.2"
+  />
+  <!-- Belly Scale Highlight -->
+  <path d="M45 68 C 55 62 75 62 85 70" stroke="#FDE4D2" stroke-width="1.5" opacity="0.8"/>
+  <!-- Eye -->
+  <circle cx="42" cy="65" r="4" fill="#241408"/>
+  <circle cx="41" cy="64" r="1.2" fill="#FFFFFF"/>
+</svg>

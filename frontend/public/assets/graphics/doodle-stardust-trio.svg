@@ -1,0 +1,19 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Primary Celestial Sparkle Star -->
+  <path
+    d="M50 10 Q 50 40 80 40 Q 50 40 50 70 Q 50 40 20 40 Q 50 40 50 10 Z"
+    fill="#D4AF37"
+  />
+  <!-- Secondary Sparkle Star -->
+  <path
+    d="M22 62 Q 22 76 36 76 Q 22 76 22 90 Q 22 76 8 76 Q 22 76 22 62 Z"
+    fill="#E8C965"
+  />
+  <!-- Tertiary Micro Star -->
+  <path
+    d="M80 66 Q 80 75 89 75 Q 80 75 80 84 Q 80 75 71 75 Q 80 75 80 66 Z"
+    fill="#F7DF8D"
+  />
+  <circle cx="76" cy="22" r="2" fill="#D4AF37"/>
+  <circle cx="28" cy="28" r="1.5" fill="#D4AF37"/>
+</svg>

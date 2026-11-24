@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGildedGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2BE76" />
+      <stop offset="35%" stop-color="#FBF0D1" />
+      <stop offset="70%" stop-color="#CFA148" />
+      <stop offset="100%" stop-color="#9E7528" />
+    </linearGradient>
+  </defs>
+  <!-- Gilded Foil Tape Body -->
+  <path d="M4 8 L196 5 L194 43 L2 45 Z" fill="url(#goldGildedGrad)" opacity="0.92"/>
+  <!-- Metallic Diamond Inlay Accent -->
+  <path d="M12 25 H188" stroke="#FFFFFF" stroke-width="0.9" opacity="0.75"/>
+  <g stroke="#FFFFFF" stroke-width="0.8" opacity="0.6">
+    <path d="M30 25 L35 20 L40 25 L35 30 Z" fill="none"/>
+    <path d="M70 25 L75 20 L80 25 L75 30 Z" fill="none"/>
+    <path d="M110 25 L115 20 L120 25 L115 30 Z" fill="none"/>
+    <path d="M150 25 L155 20 L160 25 L155 30 Z" fill="none"/>
+  </g>
+</svg>

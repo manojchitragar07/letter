@@ -1,0 +1,26 @@
+<svg viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dried Coffee Cup Stain Ring -->
+  <circle
+    cx="70"
+    cy="70"
+    r="55"
+    stroke="#6E4F32"
+    stroke-width="3.8"
+    stroke-dasharray="35 12 25 15 45 8"
+    opacity="0.45"
+  />
+  <circle
+    cx="70"
+    cy="70"
+    r="53"
+    stroke="#8C6642"
+    stroke-width="1.4"
+    stroke-dasharray="60 10 30 20"
+    opacity="0.35"
+  />
+  <!-- Coffee Drops and Splatters -->
+  <circle cx="88" cy="46" r="4" fill="#6E4F32" opacity="0.4"/>
+  <circle cx="45" cy="102" r="3.2" fill="#6E4F32" opacity="0.35"/>
+  <circle cx="95" cy="98" r="2" fill="#6E4F32" opacity="0.3"/>
+  <circle cx="35" cy="50" r="1.5" fill="#6E4F32" opacity="0.3"/>
+</svg>

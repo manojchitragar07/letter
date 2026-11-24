@@ -1,0 +1,17 @@
+<svg viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blush Floral Tape Base -->
+  <path d="M3 5 L197 7 L195 45 L5 43 Z" fill="#F8ECEE" opacity="0.92"/>
+  <path d="M3 5 L6 20 L3 35 L5 43 Z" fill="#E8D1D5" opacity="0.5"/>
+  <path d="M197 7 L194 22 L196 35 L195 45 Z" fill="#E8D1D5" opacity="0.5"/>
+  <!-- Repeated Miniature Rose Sprigs -->
+  {[25, 60, 95, 130, 165].map((cx, i) => (
+    <g key={i} transform={`translate(${cx}, 25)`}>
+      <circle cx="-5" cy="0" r="4.5" fill="#E2A1A8" opacity="0.85"/>
+      <circle cx="5" cy="0" r="4.5" fill="#E2A1A8" opacity="0.85"/>
+      <circle cx="0" cy="-5" r="4.5" fill="#E2A1A8" opacity="0.85"/>
+      <circle cx="0" cy="5" r="4.5" fill="#E2A1A8" opacity="0.85"/>
+      <circle cx="0" cy="0" r="3" fill="#B3394D"/>
+      <circle cx="7" cy="-7" r="1.5" fill="#788F7B"/>
+    </g>
+  ))}
+</svg>

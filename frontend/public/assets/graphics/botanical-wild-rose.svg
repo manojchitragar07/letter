@@ -1,0 +1,29 @@
+<svg viewBox="0 0 160 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stem -->
+  <path d="M80 75 Q 75 130 88 190" stroke="#3D4B39" stroke-width="3" stroke-linecap="round"/>
+  <!-- Thorns -->
+  <path d="M79 110 Q 72 108 70 114" stroke="#3D4B39" stroke-width="2" stroke-linecap="round"/>
+  <path d="M82 145 Q 89 143 92 149" stroke="#3D4B39" stroke-width="2" stroke-linecap="round"/>
+  <!-- Leaves -->
+  <path d="M78 120 C 52 105 40 125 50 138 C 65 142 74 132 78 122 Z" fill="#4E6149" stroke="#384534" stroke-width="1.2"/>
+  <path d="M50 138 Q 64 130 78 120" stroke="#384534" stroke-width="1"/>
+  <path d="M84 140 C 110 125 122 145 112 158 C 97 162 88 152 84 142 Z" fill="#4E6149" stroke="#384534" stroke-width="1.2"/>
+  <path d="M112 158 Q 98 150 84 140" stroke="#384534" stroke-width="1"/>
+  <!-- Sepals (Green Calyx base) -->
+  <path d="M68 68 Q 62 82 55 90 Q 70 82 76 72" fill="#3D4B39"/>
+  <path d="M92 68 Q 98 82 105 90 Q 90 82 84 72" fill="#3D4B39"/>
+  <path d="M80 72 V 92 Q 83 80 80 72" fill="#3D4B39"/>
+  <!-- Layered Rose Petals -->
+  <!-- Outer Petals -->
+  <path d="M80 15 C 50 15 32 38 40 60 C 48 78 72 82 80 82 C 88 82 112 78 120 60 C 128 38 110 15 80 15 Z" fill="#992D3E" opacity="0.95"/>
+  <path d="M48 35 C 32 50 42 75 65 78 C 55 65 52 48 48 35 Z" fill="#B3394D"/>
+  <path d="M112 35 C 128 50 118 75 95 78 C 105 65 108 48 112 35 Z" fill="#B3394D"/>
+  <!-- Middle Petals -->
+  <path d="M80 25 C 60 25 50 42 56 58 C 62 70 76 72 80 72 C 84 72 98 70 104 58 C 110 42 100 25 80 25 Z" fill="#C4455B"/>
+  <path d="M62 38 C 55 48 65 65 80 66 C 70 58 68 45 62 38 Z" fill="#D9576E"/>
+  <path d="M98 38 C 105 48 95 65 80 66 C 90 58 92 45 98 38 Z" fill="#D9576E"/>
+  <!-- Inner Rose Core (Folded Petal Spiral) -->
+  <circle cx="80" cy="46" r="14" fill="#7A1D2B"/>
+  <path d="M72 44 C 74 36 86 36 88 44 C 86 52 74 52 72 44 Z" fill="#D9576E"/>
+  <path d="M75 42 C 77 38 83 38 85 42 C 83 46 77 46 75 42 Z" fill="#F495A5"/>
+</svg>

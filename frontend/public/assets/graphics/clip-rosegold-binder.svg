@@ -1,0 +1,16 @@
+<svg viewBox="0 0 50 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rose Gold Metallic Wire Loop -->
+  <path
+    d="M16 28 V76 C16 83 22 88 28 88 C34 88 40 83 40 76 V16 C40 8 32 3 24 3 C16 3 8 8 8 16 V82"
+    stroke="#B76E79"
+    stroke-width="3.2"
+    stroke-linecap="round"
+  />
+  <path
+    d="M16 28 V76 C16 83 22 88 28 88 C34 88 40 83 40 76 V16 C40 8 32 3 24 3 C16 3 8 8 8 16 V82"
+    stroke="#FFE6EA"
+    stroke-width="1.1"
+    stroke-linecap="round"
+    opacity="0.8"
+  />
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Delicate stem -->
+  <path d="M60 65 Q 63 95 68 135" stroke="#3A7045" stroke-width="2" stroke-linecap="round"/>
+  <!-- Leaf 1 (Top) -->
+  <path d="M60 65 C 45 45 35 25 55 18 C 65 24 60 50 60 65 Z" fill="#4B8C5A" stroke="#32633C" stroke-width="0.8"/>
+  <path d="M60 65 C 75 45 85 25 65 18 C 55 24 60 50 60 65 Z" fill="#589E68" stroke="#32633C" stroke-width="0.8"/>
+  <!-- Leaf 2 (Right) -->
+  <path d="M60 65 C 80 50 100 40 107 60 C 101 70 75 65 60 65 Z" fill="#4B8C5A" stroke="#32633C" stroke-width="0.8"/>
+  <path d="M60 65 C 80 80 100 90 107 70 C 101 60 75 65 60 65 Z" fill="#589E68" stroke="#32633C" stroke-width="0.8"/>
+  <!-- Leaf 3 (Bottom) -->
+  <path d="M60 65 C 75 85 85 105 65 112 C 55 106 60 80 60 65 Z" fill="#4B8C5A" stroke="#32633C" stroke-width="0.8"/>
+  <path d="M60 65 C 45 85 35 105 55 112 C 65 106 60 80 60 65 Z" fill="#589E68" stroke="#32633C" stroke-width="0.8"/>
+  <!-- Leaf 4 (Left) -->
+  <path d="M60 65 C 40 80 20 90 13 70 C 19 60 45 65 60 65 Z" fill="#4B8C5A" stroke="#32633C" stroke-width="0.8"/>
+  <path d="M60 65 C 40 50 20 40 13 60 C 19 70 45 65 60 65 Z" fill="#589E68" stroke="#32633C" stroke-width="0.8"/>
+  <!-- Center Node -->
+  <circle cx="60" cy="65" r="3.5" fill="#2E5C37"/>
+</svg>

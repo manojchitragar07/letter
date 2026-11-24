@@ -1,0 +1,35 @@
+<svg viewBox="0 0 100 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Slender Lavender Stem -->
+  <path d="M50 45 Q 48 120 52 195" stroke="#4E5E44" stroke-width="2" stroke-linecap="round"/>
+  <!-- Lavender Leaves -->
+  <path d="M50 140 Q 32 135 25 142 Q 38 144 50 142" fill="#5D7053"/>
+  <path d="M51 155 Q 68 150 75 157 Q 62 159 51 157" fill="#5D7053"/>
+  <path d="M51 170 Q 35 166 30 172 Q 42 174 51 172" fill="#5D7053"/>
+  <!-- Tiered Lavender Flower Buds -->
+  <!-- Top Bud -->
+  <ellipse cx="50" cy="35" rx="5" ry="7" fill="#6B5282"/>
+  <ellipse cx="50" cy="35" rx="3.5" ry="5" fill="#8C72A5"/>
+  <!-- Tier 1 -->
+  <ellipse cx="44" cy="46" rx="6" ry="8" fill="#5E4377"/>
+  <ellipse cx="56" cy="48" rx="6" ry="8" fill="#5E4377"/>
+  <ellipse cx="50" cy="47" rx="5" ry="7" fill="#816599"/>
+  <!-- Tier 2 -->
+  <ellipse cx="43" cy="60" rx="7" ry="9" fill="#55396E"/>
+  <ellipse cx="57" cy="62" rx="7" ry="9" fill="#55396E"/>
+  <ellipse cx="50" cy="61" rx="6" ry="8" fill="#75588E"/>
+  <!-- Tier 3 -->
+  <ellipse cx="42" cy="76" rx="7.5" ry="9.5" fill="#4B3163"/>
+  <ellipse cx="58" cy="78" rx="7.5" ry="9.5" fill="#4B3163"/>
+  <ellipse cx="50" cy="77" rx="6.5" ry="8.5" fill="#6E5086"/>
+  <!-- Tier 4 -->
+  <ellipse cx="42" cy="92" rx="7.5" ry="9.5" fill="#4B3163"/>
+  <ellipse cx="58" cy="94" rx="7.5" ry="9.5" fill="#4B3163"/>
+  <ellipse cx="50" cy="93" rx="6.5" ry="8.5" fill="#6E5086"/>
+  <!-- Tier 5 (Lower) -->
+  <ellipse cx="43" cy="108" rx="7" ry="9" fill="#55396E"/>
+  <ellipse cx="57" cy="110" rx="7" ry="9" fill="#55396E"/>
+  <!-- Calyx green tips -->
+  <path d="M48 38 L50 42 L52 38" stroke="#4E5E44" stroke-width="1.2"/>
+  <path d="M48 52 L50 56 L52 52" stroke="#4E5E44" stroke-width="1.2"/>
+  <path d="M48 68 L50 72 L52 68" stroke="#4E5E44" stroke-width="1.2"/>
+</svg>

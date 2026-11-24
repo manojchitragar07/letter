@@ -1,0 +1,26 @@
+<svg viewBox="0 0 130 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Perforated Stamp Edge -->
+  <rect x="4" y="4" width="122" height="142" fill="#FBF6EC" stroke="#C4B49C" stroke-width="1.8" stroke-dasharray="4 4"/>
+  <!-- Inner Frame -->
+  <rect x="10" y="10" width="110" height="130" fill="#FCFAF6" stroke="#8F2C43" stroke-width="1.6"/>
+  <text x="65" y="26" text-anchor="middle" fill="#8F2C43" font-size="8.5" font-family="Georgia, serif" font-weight="bold" letter-spacing="1.5">
+    POSTE ITALIANE
+  </text>
+  <!-- Florence Rose Vignette -->
+  <g transform="translate(65, 70)">
+    <circle cx="0" cy="0" r="28" fill="#FDF2F4" stroke="#8F2C43" stroke-width="0.8"/>
+    <!-- Rose Blossom -->
+    <circle cx="0" cy="0" r="14" fill="#992D3E"/>
+    <circle cx="-3" cy="-2" r="10" fill="#B3394D"/>
+    <circle cx="2" cy="1" r="7" fill="#C4455B"/>
+    <circle cx="0" cy="0" r="3.5" fill="#F495A5"/>
+    <path d="M-8 22 Q 0 25 8 22" stroke="#4E6149" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <!-- Denomination & City -->
+  <text x="24" y="126" fill="#8F2C43" font-size="12" font-family="Georgia, serif" font-weight="bold">
+    L. 50
+  </text>
+  <text x="106" y="126" text-anchor="end" fill="#8F2C43" font-size="8" font-family="Georgia, serif">
+    FIRENZE
+  </text>
+</svg>

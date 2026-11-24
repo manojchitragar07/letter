@@ -1,0 +1,31 @@
+<svg viewBox="0 0 160 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Weathered Cherry Wood Branch -->
+  <path d="M15 110 Q 55 95 85 70 Q 115 50 145 35" stroke="#4E3629" stroke-width="4" stroke-linecap="round"/>
+  <path d="M85 70 Q 105 85 125 90" stroke="#4E3629" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M50 98 Q 62 115 72 120" stroke="#4E3629" stroke-width="2" stroke-linecap="round"/>
+  <!-- Blossom 1 (Center) -->
+  <g transform="translate(85, 68)">
+    <circle cx="-10" cy="-6" r="10" fill="#FCE5E8" stroke="#ECA2AC" stroke-width="0.8"/>
+    <circle cx="10" cy="-6" r="10" fill="#FCE5E8" stroke="#ECA2AC" stroke-width="0.8"/>
+    <circle cx="-6" cy="10" r="10" fill="#FCE5E8" stroke="#ECA2AC" stroke-width="0.8"/>
+    <circle cx="6" cy="10" r="10" fill="#FCE5E8" stroke="#ECA2AC" stroke-width="0.8"/>
+    <circle cx="0" cy="-12" r="10" fill="#FCE5E8" stroke="#ECA2AC" stroke-width="0.8"/>
+    <!-- Pistils and Stamen -->
+    <circle cx="0" cy="0" r="4.5" fill="#D6586C"/>
+    <line x1="0" y1="0" x2="-4" y2="-4" stroke="#D6586C" stroke-width="0.8"/>
+    <line x1="0" y1="0" x2="4" y2="-4" stroke="#D6586C" stroke-width="0.8"/>
+    <line x1="0" y1="0" x2="0" y2="5" stroke="#D6586C" stroke-width="0.8"/>
+  </g>
+  <!-- Blossom 2 (Right) -->
+  <g transform="translate(130, 40) scale(0.85)">
+    <circle cx="-10" cy="-6" r="10" fill="#FCE5E8" stroke="#ECA2AC" stroke-width="0.8"/>
+    <circle cx="10" cy="-6" r="10" fill="#FCE5E8" stroke="#ECA2AC" stroke-width="0.8"/>
+    <circle cx="-6" cy="10" r="10" fill="#FCE5E8" stroke="#ECA2AC" stroke-width="0.8"/>
+    <circle cx="6" cy="10" r="10" fill="#FCE5E8" stroke="#ECA2AC" stroke-width="0.8"/>
+    <circle cx="0" cy="-12" r="10" fill="#FCE5E8" stroke="#ECA2AC" stroke-width="0.8"/>
+    <circle cx="0" cy="0" r="4" fill="#D6586C"/>
+  </g>
+  <!-- Blossom Bud (Lower) -->
+  <ellipse cx="72" cy="120" rx="6" ry="9" fill="#ECA2AC"/>
+  <ellipse cx="72" cy="120" rx="4" ry="6" fill="#FCE5E8"/>
+</svg>

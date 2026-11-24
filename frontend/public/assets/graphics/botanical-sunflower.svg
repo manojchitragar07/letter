@@ -1,0 +1,40 @@
+<svg viewBox="0 0 160 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sunflower Petals Layer 1 (Outer Circle) -->
+  <g transform="translate(80, 80)">
+    {[0, 24, 48, 72, 96, 120, 144, 168, 192, 216, 240, 264, 288, 312, 336].map((deg) => (
+      <path
+        key={deg}
+        transform={`rotate(${deg})`}
+        d="M-8 -30 C -12 -55 0 -75 0 -75 C 0 -75 12 -55 8 -30 Z"
+        fill="#E59B27"
+        stroke="#C47D14"
+        stroke-width="0.8"
+      />
+    ))}
+  </g>
+  <!-- Sunflower Petals Layer 2 (Inner Circle) -->
+  <g transform="translate(80, 80)">
+    {[12, 36, 60, 84, 108, 132, 156, 180, 204, 228, 252, 276, 300, 324, 348].map((deg) => (
+      <path
+        key={deg}
+        transform={`rotate(${deg})`}
+        d="M-7 -25 C -10 -48 0 -68 0 -68 C 0 -68 10 -48 7 -25 Z"
+        fill="#F4B733"
+        stroke="#D98A18"
+        stroke-width="0.8"
+      />
+    ))}
+  </g>
+  <!-- Seed Disc Center Outer Rim -->
+  <circle cx="80" cy="80" r="32" fill="#5E3816" stroke="#42250C" stroke-width="2"/>
+  <!-- Spiral Seed Texture Dots -->
+  <circle cx="80" cy="80" r="26" fill="#4A2A0E"/>
+  <circle cx="80" cy="80" r="18" fill="#381E08"/>
+  <circle cx="80" cy="80" r="10" fill="#291404"/>
+  <!-- Florets Rings -->
+  <circle cx="80" cy="80" r="28" stroke="#D49A33" stroke-width="1.2" stroke-dasharray="3 4" opacity="0.75"/>
+  <circle cx="80" cy="80" r="22" stroke="#E5AC44" stroke-width="1.2" stroke-dasharray="2 3" opacity="0.8"/>
+  <circle cx="80" cy="80" r="14" stroke="#F4BD55" stroke-width="1" stroke-dasharray="2 2" opacity="0.85"/>
+  <!-- Tiny center highlight -->
+  <circle cx="80" cy="80" r="4" fill="#C47D14" opacity="0.9"/>
+</svg>
