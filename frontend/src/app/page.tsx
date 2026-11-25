@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { SkyHero } from "@/components/landing/SkyHero";
 import { HeroEnvelope } from "@/components/landing/HeroEnvelope";
 import { LETTER_TEMPLATES } from "@/data/templates";
 import { fetchAllPublicLetters } from "@/lib/api";
@@ -18,6 +18,8 @@ import {
   Palette,
   ExternalLink,
 } from "lucide-react";
+
+export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
   const letters = await fetchAllPublicLetters();
@@ -84,69 +86,50 @@ export default async function HomePage() {
 
   return (
     <div className="min-h-screen bg-[#FAF7F2] text-[#2B2621] flex flex-col">
-      <Navbar />
+      {/* 1. SKY HERO (Exact layout & aesthetic from reference image + letter elements) */}
+      <SkyHero />
 
       <main className="flex-1">
-        {/* HERO SECTION */}
-        <section className="relative pt-12 pb-20 md:pt-20 md:pb-32 overflow-hidden">
-          {/* Subtle warm background radial grain */}
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-full pointer-events-none opacity-40">
-            <div className="absolute top-10 left-1/4 w-96 h-96 bg-rose-200/50 rounded-full filter blur-3xl" />
-            <div className="absolute top-24 right-1/4 w-96 h-96 bg-amber-200/50 rounded-full filter blur-3xl" />
-          </div>
-
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-              {/* Left Column: Headline & Value Prop */}
-              <div className="lg:col-span-7 text-center lg:text-left space-y-6">
+        {/* INTERACTIVE ENVELOPE SPOTLIGHT */}
+        <section className="py-20 bg-[#FAF7F2] relative overflow-hidden border-b border-[#E7E0D0]">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+              <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
                 <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-burgundy/10 text-burgundy text-xs font-semibold tracking-wide border border-burgundy/20">
                   <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-                  <span>Slow communication for moments that matter</span>
+                  <span>Interactive Unfolding Ceremony</span>
                 </div>
 
-                <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold text-stone-900 tracking-tight leading-[1.12]">
-                  Some feelings deserve <br />
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif font-bold text-stone-900 tracking-tight leading-tight">
+                  Letters designed to be <br />
                   <span className="italic font-normal text-burgundy">
-                    more than a text.
+                    opened with wonder.
                   </span>
-                </h1>
+                </h2>
 
-                <p className="text-base sm:text-lg text-stone-600 font-sans max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                  Turn your thoughts into beautiful letters. Write your message on vintage parchment, decorate with botanical illustrations and wax seals, and share a private link with someone you cherish.
+                <p className="text-sm sm:text-base text-stone-600 font-sans max-w-xl mx-auto lg:mx-0 leading-relaxed">
+                  When you share your private link, your recipient doesn&apos;t just receive a message. They experience a sealed wax envelope breaking open, paper unfolding gracefully, and vinyl melodies playing in the background.
                 </p>
 
-                <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
                   <Link
                     href="/studio"
-                    className="w-full sm:w-auto px-7 py-3.5 bg-burgundy hover:bg-burgundy-dark text-white rounded-xl font-serif text-base font-semibold flex items-center justify-center gap-2.5 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5"
+                    className="px-6 py-3.5 bg-burgundy hover:bg-burgundy-dark text-white rounded-xl font-serif text-sm font-semibold flex items-center gap-2 shadow-lg transition-all hover:scale-105"
                   >
                     <PenTool className="w-4 h-4" />
-                    <span>Write a Letter</span>
+                    <span>Create Your Letter Now</span>
                   </Link>
-
                   <Link
-                    href="#showcase"
-                    className="w-full sm:w-auto px-6 py-3.5 bg-stone-100 hover:bg-stone-200/80 text-stone-800 rounded-xl font-serif text-base font-medium flex items-center justify-center gap-2 border border-stone-200 transition-colors"
+                    href="/templates"
+                    className="px-6 py-3.5 bg-white hover:bg-stone-50 text-stone-800 rounded-xl font-serif text-sm font-medium flex items-center gap-2 border border-stone-200 transition-colors shadow-sm"
                   >
-                    <span>Explore Letters</span>
+                    <span>Browse 8 Templates</span>
                     <ArrowRight className="w-4 h-4 text-stone-500" />
                   </Link>
                 </div>
-
-                {/* Subtext guarantees */}
-                <div className="pt-4 flex items-center justify-center lg:justify-start gap-6 text-xs text-stone-500 font-serif">
-                  <span className="flex items-center gap-1.5">
-                    <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                    No account required for receiver
-                  </span>
-                  <span className="flex items-center gap-1.5">
-                    <Heart className="w-4 h-4 text-rose-500" />
-                    100% Private & Permanent
-                  </span>
-                </div>
               </div>
 
-              {/* Right Column: Animated Interactive Envelope Showcase */}
+              {/* Interactive Envelope Preview */}
               <div className="lg:col-span-5 flex justify-center">
                 <HeroEnvelope />
               </div>
@@ -155,17 +138,17 @@ export default async function HomePage() {
         </section>
 
         {/* HOW IT WORKS SECTION */}
-        <section id="how-it-works" className="py-20 bg-[#F4EFE6] border-y border-[#E3DFC9]">
+        <section id="how-it-works" className="py-20 bg-[#F4EFE6] border-b border-[#E3DFC9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto space-y-3 mb-16">
-              <span className="text-xs uppercase tracking-widest font-serif text-amber-900 font-semibold">
+              <span className="text-xs uppercase tracking-widest font-mono text-amber-900 font-semibold">
                 The Journey
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-stone-900">
                 How Dearly Works
               </h2>
               <p className="text-sm text-stone-600 leading-relaxed font-sans">
-                Three simple steps to craft an unforgettable emotional experience.
+                Three simple steps to craft an unforgettable emotional keepsake.
               </p>
             </div>
 
@@ -212,11 +195,11 @@ export default async function HomePage() {
           </div>
         </section>
 
-        {/* EXPLORE THE POSSIBILITIES SECTION */}
+        {/* OCCASIONS SECTION */}
         <section className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto space-y-3 mb-14">
-              <span className="text-xs uppercase tracking-widest font-serif text-amber-900 font-semibold">
+              <span className="text-xs uppercase tracking-widest font-mono text-amber-900 font-semibold">
                 Occasions
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-stone-900">
@@ -256,7 +239,7 @@ export default async function HomePage() {
         <section id="showcase" className="py-20 bg-[#F4EFE6] border-t border-[#E3DFC9]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-2xl mx-auto space-y-3 mb-16">
-              <span className="text-xs uppercase tracking-widest font-serif text-amber-900 font-semibold">
+              <span className="text-xs uppercase tracking-widest font-mono text-amber-900 font-semibold">
                 Curated Keepsakes
               </span>
               <h2 className="text-3xl sm:text-4xl font-serif font-bold text-stone-900">
